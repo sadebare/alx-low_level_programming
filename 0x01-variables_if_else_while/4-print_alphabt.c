@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char lowwerCase;
+	char lowerCase;
 
 	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 	{
