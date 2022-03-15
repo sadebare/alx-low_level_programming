@@ -1,3 +1,6 @@
+#ifndef main.h
+#define main.h
+
 int _putchar;
 void print_alphabet(void);
 int _islower(int c);
@@ -10,3 +13,4 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 
+#endif
