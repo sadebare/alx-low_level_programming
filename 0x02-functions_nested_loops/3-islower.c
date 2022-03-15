@@ -4,7 +4,7 @@
  *
  *@c: checking for lower case character
  *
- * Result - Return 1 if c is lower case else 0
+ * Return - 1 if c is lowercase else 0
  */
 
 int _islower(int c)
