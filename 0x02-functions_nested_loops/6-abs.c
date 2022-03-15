@@ -6,7 +6,7 @@
  *
  * Return: An absolute value of int
  */
-int _abs(int)
+int _abs(int n)
 {
-	_putchar(int);
+	_putchar(n);
 }
