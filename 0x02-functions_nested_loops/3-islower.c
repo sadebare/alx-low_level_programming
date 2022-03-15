@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Result - Always 0 (Success)
+ * Result - 
  */
 
 int _islower(int c)
