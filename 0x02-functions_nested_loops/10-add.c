@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * add - A function that adds two integers
+ * 
  * @a: first perand
  * @b: second operand
  *
