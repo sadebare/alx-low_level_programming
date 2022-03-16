@@ -2,11 +2,6 @@
 /**
  * jack_bauer - A function that prints every minutes of the day
  *
- * @a: parameter 1;
- * @b: parameter 2;
- * @c: parameter 3;
- * @d: parameter 4;
- *
  * Return: No return
  */
 void jack_bauer(void)
@@ -30,7 +25,6 @@ void jack_bauer(void)
 					_putchar(d);
 					_putchar('\n');
 				}
-				
 			}
 		}
 	}
