@@ -7,8 +7,8 @@
 int main(void)
 {
 	int i;
-	int a = 1;
-	int b = 2;
+	int a = 0;
+	int b = 1;
 	int c = a + b;
 
 	for (i = 0; i <= 50; i++)
