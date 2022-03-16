@@ -2,9 +2,12 @@
 /**
  * jack_bauer - A function that prints every minutes of the day
  *
- * @c: 
+ * @a: parameter 1;
+ * @b: parameter 2;
+ * @c: parameter 3;
+ * @d: parameter 4;
  *
- * Return: Time of minutes and hours
+ * Return: No return
  */
 void jack_bauer(void)
 {
@@ -29,9 +32,6 @@ void jack_bauer(void)
 				}
 				
 			}
-			
 		}
-		
 	}
-	
 }
