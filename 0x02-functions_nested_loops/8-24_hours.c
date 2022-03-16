@@ -8,18 +8,30 @@
  */
 void jack_bauer(void)
 {
-	int h, m;
+	int a, b, c, d;
 
-	for (h = 0; h <= 23; h++)
-	{	
-		for (m = 0; h < 60; m++)
+	for ( a = 0; a <= 50; a++)
+	{
+		for (b = 0; b <= 57; b++)
 		{
-			_putchar((h / 10) + '0');
-			_putchar((h % 10) + '0');
-			_putchar(':');
-			_putchar((m / 10) + '0');
-			_putchar((m % 10) + '0');
-			_putchar('\n');
+			for (c = 0; c <= 53; c++)
+			{
+				for (d = 0; d <= 57; d++)
+				{
+					if (a >= 50 && b >= 52)
+					break;
+					_putchar(a);
+					_putchar(b);
+					_putchar(58);
+					_putchar(c);
+					_putchar(d);
+					_putchar('\n');
+				}
+				
+			}
+			
 		}
+		
 	}
+	
 }
