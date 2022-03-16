@@ -4,11 +4,11 @@
  *
  * Result: Always 0 (Success)
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	int i;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 97; i <= 123; i++)
 	{
 		_putchar(i);
 	}
