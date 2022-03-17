@@ -5,10 +5,11 @@
  * @a: parameter1
  * @b: parameter2
  *
- * Return: Always mul (Success)
+ * Return: Always 0 (Success)
  */
 int mul(int a, int b)
 {
+
 	int result;
 
 	result = a * b;
