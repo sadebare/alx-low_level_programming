@@ -6,29 +6,16 @@
  */
 int main(void)
 {
-	long long num;
-	int maxPrime;
-	int oddPrime
-	num = 612852475143;
-	maxPrime = 0;
-	oddPrime = 3;
-
-	while (num % 2 == 0)
+	long i, num = 612852475143;
+	for(i = 2; i <= num; i++)
 	{
-		maxPrime = 2;
-		num /= 2;
-	}
-
-	while (num != 1)
-	{
-		while (num % oddPrime == 0)
+		if (num % i == 0)
 		{
-			maxPrime = oddPrime;
-			num /= oddPrime;
-
+			num = num / i;
+			i--;
 		}
-		oddPrime += 2;
 	}
-	printf("%d\n", maxPrime);
+	printf("%lu\n", i);
+	return (0);
 }
 
