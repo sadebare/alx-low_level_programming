@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * swap_int - A function that swaps two integers
  * @a: parameter1
