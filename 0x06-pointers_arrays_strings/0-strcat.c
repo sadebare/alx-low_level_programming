@@ -4,7 +4,7 @@
  * @dest: parameter1
  * @src: parameter2
  *
- * Return: dest
+ * Return: void
  */
 char *_strcat(char *dest, char *src)
 {
