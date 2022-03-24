@@ -3,7 +3,7 @@
  * cap_string - function that changes all lowercase letters to uppercase
  * @s: parameter1
  *
- * Return: s
+ * Return: string
  */
 char *cap_string(char *s)
 {
