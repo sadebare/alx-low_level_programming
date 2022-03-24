@@ -1,40 +1,42 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * cap_string - function that changes all lowercase letters to uppercase
- * @s: parameter1
+ * cap_string - capitalizes all words of a string
+ * @n: input value
+ *
  *
  * Return: string
  */
-char *cap_string(char *s)
+char *cap_string(char *n)
 {
-	int i = 0;
-	
-	if (s[0] >= 'a' && s[0] <= 'z')
+	int i;
+
+	i = 0;
+	if (n[0] >= 'a' && n[0] <= 'z')
 	{
-		s[0] = s[0] - 32;
+		n[0] = n[0] - 32;
 	}
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		switch (s[i])
+		switch (n[i])
 		{
-			case ',' :
-			case ';' :
-			case '.' :
-			case '!' :
-			case '?' :
-			case '"' :
-			case '(' :
-			case ')' :
-			case '{' :
-			case '}' :
-			case ' ' :
-			case '\n' :
-			case '\t' :
-				if (s[i + 1] > 96 && s[i + 1] < 123)
+			case ',':
+			case ';':
+			case '.':
+			case '!':
+			case '?':
+			case '"':
+			case '(':
+			case ')':
+			case '{':
+			case '}':
+			case ' ':
+			case '\n':
+			case '\t':
+				if (n[i + 1] > 96 && n[i + 1] < 123)
 				{
-					s[i + 1] = s[i + 1] - 32;
+					n[i + 1] = n[i + 1] - 32;
 				}
 		}
 	}
-	return (s);
+	return (n);
 }
