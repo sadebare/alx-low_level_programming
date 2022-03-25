@@ -1,1 +1,1 @@
-This is a README.md file
+This project contains pointers, arrays and strings
