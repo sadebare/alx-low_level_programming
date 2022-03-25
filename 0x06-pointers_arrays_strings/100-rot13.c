@@ -7,7 +7,9 @@
  */
 char *rot13(char *s)
 {
-	int i, j;
+	int i;
+	int j;
+
 	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
