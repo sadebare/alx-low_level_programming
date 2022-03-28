@@ -4,7 +4,7 @@
  * @a: 2D array
  * @size: param2
  *
- * Return: void
+ * Return: nothing
  */
 void print_diagsums(int *a, int size)
 {
