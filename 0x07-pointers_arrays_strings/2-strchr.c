@@ -4,7 +4,7 @@
  * @s: param1
  * @c: param2
  *
- * Return: Always 0 (success)
+ * Return: A pointer to a character
  */
 char *_strchr(char *s, char c)
 {
