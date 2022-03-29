@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 /**
  * set_string - A function that sets the value of a pointer to a char
  * @s: param1
