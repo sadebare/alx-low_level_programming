@@ -17,9 +17,13 @@ int num_checker(char *a)
 	while (i < len)
 	{
 		if (a[i] < '0' || a[i] > '9')
+		{
 			return (-1);
+		}
 		else
+		{
 			num = num * 10 + (a[i] - '0');
+		}
 		i++;
 	}
 	return (num);
