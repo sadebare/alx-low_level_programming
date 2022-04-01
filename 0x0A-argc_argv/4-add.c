@@ -2,11 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * num_checker - checks if the given char is a number or not
+ * num_checker - checks if a given char is number or not
  * @a: char to be checked
- *
- * Return: 1, if it's a number else 0
- */
+ * Return: 1, if its a number, else 0
+ **/
 int num_checker(char *a)
 {
 	int i, num, len;
@@ -17,7 +16,9 @@ int num_checker(char *a)
 	while (i < len)
 	{
 		if (a[i] < '0' || a[i] > '9')
+		{
 			return (-1);
+		}
 		else
 			num = num * 10 + (a[i] - '0');
 		i++;
@@ -26,11 +27,10 @@ int num_checker(char *a)
 }
 /**
  * main - add positive numbers
- * @argc: argument count
- * @argv: argument vector
- *
- * Return: Result of addition or 1
- */
+ * @argc: arguement count
+ * @argv: array of pointers to arguement strings
+ * Return: result of addition or 1
+ **/
 int main(int argc, char *argv[])
 {
 	int i, num, sum;
