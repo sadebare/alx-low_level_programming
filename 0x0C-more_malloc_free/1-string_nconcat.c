@@ -11,32 +11,37 @@
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-    int i;
-    unsigned int j;
-    char *strDup;
+	char *arr;
+	unsigned int i, j, co, co_2;
 
-    if (s1 == NULL)
-        s1 = "";
-    if (s2 == NULL)
-        s2 = "";
-    i = 0;
-    while (s1[i] != '\0')
-        i++;
-    strDup = malloc(sizeof(char) * (n + i + 1));
-    if (strDup == NULL)
-        return (NULL);
-    i = j = 0;
-    while (s1[i] != '\0')
-    {
-        strDup[i] = s1[i];
-        i++;
-    }
-    while (s2[j] != '\0')
-    {
-        strDup[i] = s2[j];
-        i++;
-        j++;
-    }
-    strDup[i] = '\0';
-    return (strDup);
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+
+	for (i = 0; s1[i] != '\0'; i++)
+	{
+	}
+	for (j = 0; s2[j] = '\0'; j++)
+	{
+	}
+
+	if (n < j)
+		j = n;
+	j += i;
+	arr = malloc(sizeof(char *) * (j + 1));
+
+	if (arr == NULL)
+		return (NULL);
+
+	for (co = 0; c0 < i; co++)
+		arr[co] = s1[co];
+	for (co_2 = 0; co < j; co_2++)
+	{
+		arr[co] = s2[co_2];
+		co++;
+	}
+	co++;
+	arr[co] = '\0';
+	return (arr);
 }
