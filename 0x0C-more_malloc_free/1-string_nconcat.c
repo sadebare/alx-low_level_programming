@@ -34,7 +34,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (arr == NULL)
 		return (NULL);
 
-	for (co = 0; c0 < i; co++)
+	for (co = 0; co < i; co++)
 		arr[co] = s1[co];
 	for (co_2 = 0; co < j; co_2++)
 	{
