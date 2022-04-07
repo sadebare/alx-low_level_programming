@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	printf("and that piece of art is useful\" - Dora Korpor, 2015-10-19\n");
+	printf("and that piece of art is useful\" - Dora Korpor, 2015-10-19");
 	return (1);
 }
