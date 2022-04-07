@@ -14,12 +14,9 @@ int main(void)
 		for (i = 0 + 1; i <= 9; i++)
 		{
 			putchar(c + '0');
-			putchar(i + '0');
-			if (c < 8)
-			{
+			putchar((i + c) + '0');
 				putchar(',');
 				putchar(' ');
-			}
 		}
 	}
 	putchar('\n');
