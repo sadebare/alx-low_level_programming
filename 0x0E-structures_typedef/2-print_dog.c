@@ -3,7 +3,6 @@
 #include <stdlib.h>
 /**
  * print_dog - function that prints a struct dog
- * @struct dog: initialize to the variable
  * @d: param1
  *
  * Return: noting
