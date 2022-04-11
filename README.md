@@ -11,4 +11,6 @@ Content
 9.  0x08. C - Recursion.
 10. 0x0A. C - argc, argv.
 11. 0x0B. C - malloc, free.
-12. 0x0C. C - More malloc, free
+12. 0x0C. C - More malloc, free.
+13. 0x0D. C - Preprocessor.
+14.  0x0E. C - Structures, typedef.
