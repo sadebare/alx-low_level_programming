@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * print_dog - function that prints a struct dog
- * @d: param1
+ * @d: pointer to an element of type dog
  *
  * Return: noting
  */
