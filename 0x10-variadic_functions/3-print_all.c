@@ -53,7 +53,7 @@ void print_all(const char * const format, ...)
 	va_list list;
 	char *sep;
 	int i, j;
-	fm_t fm[] = {
+	typ_t fm[] = {
 		{"c", print_c},
 		{"i", print_i},
 		{"f", print_f},
