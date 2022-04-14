@@ -14,3 +14,5 @@ Content
 12. 0x0C. C - More malloc, free.
 13. 0x0D. C - Preprocessor.
 14.  0x0E. C - Structures, typedef.
+15.  0x0F-function_pointers.
+16.  0x10. C - Variadic functions
