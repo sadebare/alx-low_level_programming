@@ -1,12 +1,12 @@
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-#include "variadic_functions.h"
 /**
- * sum_them_all - function that return the sum of its parameter
- * @n: argument parameter
- *
- * Return: 0, if n == 0 else sum
+ * sum_them_all - sum all arguements
+ * @n: number of arguements
+ * Return: 0 is n is 0 or return sum
  */
+
 int sum_them_all(const unsigned int n, ...)
 {
     va_list ap;
