@@ -3,7 +3,7 @@
 /**
  * print_strings - Function that prints strings
  * @n: constant of argument parameters
- *
+ * @separator: separators
  * Return: The entire strings and the separators between
  */
 void print_strings(const char *separator, const unsigned int n, ...)
