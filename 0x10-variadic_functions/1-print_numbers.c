@@ -1,26 +1,24 @@
-#include "variadic_functions.h"
 #include <stdio.h>
+#include "variadic_functions.h"
 #include <stdarg.h>
 /**
- * sum_them_all - sum all arguements
- * @n: number of arguements
- * Return: 0 is n is 0 or return sum
+ * print_numbers - function that print numbers
+ * @n: argument start parameter
+ *
+ * Return: The whole number
  */
-
-int sum_them_all(const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	va_list numbers;
-	int sum;
-	unsigned int i;
+	unsigned int i = 0;
+	va_list ap;
+	va_start(ap, n);
 
-	if (n == 0)
-		return (0);
-	sum = 0;
-	va_start(numbers, n);
 	for (i = 0; i < n; i++)
 	{
-		sum += va_arg(numbers, int);
+		printf("%d", va_arg(ap, unsigned int));
+		if (i < (n - 1) && separator != NULL)
+			printf("%c", *separator);
 	}
-	va_end(numbers);
-	return (sum);
+	va_end(ap);
+	printf("\n");
 }
