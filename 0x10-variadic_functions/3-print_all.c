@@ -33,6 +33,7 @@ void print_s(va_list list, char *sep)
 		s = "(nil)";
 	printf("%s%s", sep, s);
 }
+
 /**
  * print_f - prints floats
  * @sep: float to print
