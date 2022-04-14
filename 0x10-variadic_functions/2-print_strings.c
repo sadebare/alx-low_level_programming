@@ -8,7 +8,7 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-    char *ptr;
+	char *ptr;
 	va_list ap;
 	va_start(ap, n);
 
@@ -25,5 +25,5 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 	}
 	va_end(ap);
-    printf("\n");
+	printf("\n");
 }
