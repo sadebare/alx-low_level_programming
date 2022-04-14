@@ -1,5 +1,5 @@
-#ifndef MACRO_NAME
-#define MACRO_NAME
+#ifndef VARFUNC
+#define VARFUNC
 #include <stdarg.h>
 
 int sum_them_all(const unsigned int n, ...);
