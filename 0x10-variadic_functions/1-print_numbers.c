@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "variadic_functions.h"
-#include <stdarg.h>
 /**
  * print_numbers - function that print numbers
  * @n: argument start parameter
