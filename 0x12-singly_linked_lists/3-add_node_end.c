@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * *add_node_end - add a node at the end of the  lis_t list.
+ * *add_node_end - add a node at the end of node
  * @head: Address of first element of the list
  *@str: pointer to string we want to print
  * Return: the address of the new element
@@ -30,6 +30,7 @@ list_t *add_node_end(list_t **head, const char *str)
 			temp = temp->next;
 		temp->next = newlist;
 	}
+    
 	return (newlist);
 
 }
