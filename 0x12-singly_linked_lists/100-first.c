@@ -1,9 +1,13 @@
 #include "lists.h"
 /*
-* calledFirst- function that calls element before the main
-* Return: void (no return);
-*/
+ * calledFirst - function that prints before the main
+ *
+ * Return: Void
+ */
+
 void __attribute__((constructor)) calledFirst()
 {
-    printf("You're beat! and yet, you must allow,\nI bore my house upon my back!\n");
+    printf("You're beat! and yet, you must allow,\n");
+    printf("bore my house upon my back!\n");
+
 }
