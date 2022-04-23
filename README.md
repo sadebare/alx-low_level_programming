@@ -2,6 +2,11 @@
 Content
 1.  0x00. C - Hello, World.
 2.  0x01. C - Variables, if, else, while.
+Ai
+C
+
+B
+B
 3.  0x02. C - Functions, nested loops.
 4.  0x03. C - Debugging.
 5.  0x04. C - More functions, more nested loops.
@@ -15,4 +20,20 @@ Content
 13. 0x0D. C - Preprocessor.
 14.  0x0E. C - Structures, typedef.
 15.  0x0F-function_pointers.
-16.  0x10. C - Variadic functions
+16.  0x10. C - Variadic function
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+B
+C
+C
+s
