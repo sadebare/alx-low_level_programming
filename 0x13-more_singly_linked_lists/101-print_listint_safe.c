@@ -7,9 +7,8 @@
  */
 size_t print_listint_safe(const listint_t *head)
 {
-	/* declarations */
 	int count = 0;
-	/* check for null pointer */
+
 	while (head)
 	{
 		printf("[%p] %d\n", (void *)head, head->n);
