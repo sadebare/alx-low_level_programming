@@ -1,5 +1,5 @@
-#ifndef GUARDED_LISTS
-#define GUARDED_LISTS
+#ifndef LISTS_H
+#define LISTS_H
 
 #include <stdlib.h>
 #include <string.h>
