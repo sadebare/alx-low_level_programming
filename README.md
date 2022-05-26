@@ -19,4 +19,3 @@ Content
 17.  0x11. C - printf.
 18.  0x12. C - Singly linked lists.
 19.  0x13-more_singly_linked_lists
-
