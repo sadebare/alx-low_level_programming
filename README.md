@@ -13,9 +13,13 @@ Content
 11. 0x0B. C - malloc, free.
 12. 0x0C. C - More malloc, free.
 13. 0x0D. C - Preprocessor.
-14.  0x0E. C - Structures, typedef.
-15.  0x0F-  function_pointers.
-16.  0x10. C - Variadic function.
-17.  0x11. C - printf.
-18.  0x12. C - Singly linked lists.
-19.  0x13-more_singly_linked_lists
+14. 0x0E. C - Structures, typedef.
+15. 0x0F-  function_pointers.
+16. 0x10. C - Variadic function.
+17. 0x11. C - printf.
+18. 0x12. C - Singly linked lists.
+19. 0x13-more_singly_linked_lists
+20. 0x14. C - Bit manipulation
+21. 0x15. C - File I/O
+22. 0x17. C - Doubly linked lists
+23. 0x18. C - Dynamic libraries
