@@ -8,6 +8,7 @@
  */
 int main(void)
 {
-	printf("and that piece of art is useful\" - Dora Korpor, 2015-10-19\n");
+
+	write(1, "and that piece of art is useful\" - Dora Korpor, 2015-10-19\n", 65);
 	return (1);
 }
