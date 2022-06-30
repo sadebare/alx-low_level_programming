@@ -1,26 +1,26 @@
 # alx-low_level_programming
-Content
-1.  0x00. C - Hello, World.
-2.  0x01. C - Variables, if, else, while.
-3.  0x02. C - Functions, nested loops.
-4.  0x03. C - Debugging.
-5.  0x04. C - More functions, more nested loops.
-6.  0x05. C - Pointers, arrays and strings.
-7.  0x06. C - More pointers, arrays and strings.
-8.  0x07. C - Even more pointers, arrays and strings.
-9.  0x08. C - Recursion.
-10. 0x0A. C - argc, argv.
-11. 0x0B. C - malloc, free.
-12. 0x0C. C - More malloc, free.
-13. 0x0D. C - Preprocessor.
-14. 0x0E. C - Structures, typedef.
-15. 0x0F-  function_pointers.
-16. 0x10. C - Variadic function.
-17. 0x11. C - printf.
-18. 0x12. C - Singly linked lists.
-19. 0x13-more_singly_linked_lists
-20. 0x14. C - Bit manipulation
-21. 0x15. C - File I/O
-22. 0x17. C - Doubly linked lists
-23. 0x18. C - Dynamic libraries
-24. 0x1A. C - Hash tables
+##  Content
+### [1.  0x00. C - Hello, World.](./0x00-hello_world/)
+### [2.  0x01. C - Variables, if, else, while.](./0x01-variables_if_else_while/)
+### [3.  0x02. C - Functions, nested loops.](./0x02-functions_nested_loops/)
+### [4.  0x03. C - Debugging.](./0x03-debugging/)
+### [5.  0x04. C - More functions, more nested loops.](./0x04-more_functions_nested_loops/)
+### [6.  0x05. C - Pointers, arrays and strings.](./0x05-pointers_arrays_strings/)
+### [7. 0x06. C - More pointers, arrays and strings.](./0x06-pointers_arrays_strings/)
+### [8.  0x07. C - Even more pointers, arrays and strings.](./0x07-pointers_arrays_strings/)
+### [9.  0x08. C - Recursion.](./0x08-recursion/)
+### [10. 0x0A. C - argc, argv.](./0x0A-argc_argv/)
+### [11. 0x0B. C - malloc, free.](./0x0B-malloc_free/)
+### [12. 0x0C. C - More malloc, free.](./0x0C-more_malloc_free/)
+### [13. 0x0D. C - Preprocessor.](./0x0D-preprocessor/)
+### [14. 0x0E. C - Structures, typedef.](./0x0E-structures_typedef/)
+### [15. 0x0F-  function_pointers.](./0x0F-function_pointers/)
+### [16. 0x10. C - Variadic function.](./0x10-variadic_functions/)
+### 17. 0x11. C - printf.
+### [18. 0x12. C - Singly linked lists.](./0x12-singly_linked_lists/)
+### [19. 0x13-more_singly_linked_lists](./0x13-more_singly_linked_lists/)
+### [20. 0x14. C - Bit manipulation](./0x14-bit_manipulation/)
+### [21. 0x15. C - File I/O](./0x15-file_io/)
+### [22. 0x17. C - Doubly linked lists](./0x17-doubly_linked_lists/)
+### 23. 0x18. C - Dynamic libraries
+### [24. 0x1A. C - Hash tables](./0x1A.%20C%20-%20Hash%20tables/)
