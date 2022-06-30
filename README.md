@@ -16,11 +16,11 @@
 ### [14. 0x0E. C - Structures, typedef.](./0x0E-structures_typedef/)
 ### [15. 0x0F-  function_pointers.](./0x0F-function_pointers/)
 ### [16. 0x10. C - Variadic function.](./0x10-variadic_functions/)
-### 17. 0x11. C - printf.
+### [17. 0x11. C - printf.](./printf/)
 ### [18. 0x12. C - Singly linked lists.](./0x12-singly_linked_lists/)
 ### [19. 0x13-more_singly_linked_lists](./0x13-more_singly_linked_lists/)
 ### [20. 0x14. C - Bit manipulation](./0x14-bit_manipulation/)
 ### [21. 0x15. C - File I/O](./0x15-file_io/)
 ### [22. 0x17. C - Doubly linked lists](./0x17-doubly_linked_lists/)
-### 23. 0x18. C - Dynamic libraries
+### [23. 0x18. C - Dynamic libraries](./0x18-dynamic_libraries/)
 ### [24. 0x1A. C - Hash tables](./0x1A.%20C%20-%20Hash%20tables/)
