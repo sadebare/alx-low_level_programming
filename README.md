@@ -23,3 +23,4 @@ Content
 21. 0x15. C - File I/O
 22. 0x17. C - Doubly linked lists
 23. 0x18. C - Dynamic libraries
+24. 0x1A. C - Hash tables
